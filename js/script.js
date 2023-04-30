@@ -13,34 +13,6 @@ toggleButton.addEventListener('click', function() {
 });
 
 
-//slider
-// function getImages() {
-//     let requist = new XMLHttpRequest();
-//     requist.addEventListener('load', render);
-
-//     requist.open('GET', 'https://jsonplaceholder.typicode.com/photos');
-//     requist.send();
-// }
-
-
-// function render() {
-//     let response = this.responseText;
-//     let responseData = JSON.parse(response);
-
-//     responseData.forEach(element => {
-//         createPOst(element);
-//     });
-
-//     console.log(responseData);
-// }
-// getImages();
-
-// function createPOst(item) {
-//     let imgTag = document.createElement('img');
-//     imgTag.src = item.url;
-//     imgTag.classList.add('img-s')
-//     document.getElementById('api-user').appendChild(imgTag);
-// }
 
 
 
