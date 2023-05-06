@@ -250,7 +250,6 @@ body {
 .section3-imgW {
     width: 100%;
     background-image: url('../images/beach.jpg');
-    width: 100%;
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -401,9 +400,6 @@ body {
     line-height: 37px;
     color: #4B54FA;
 }
-/* .banner-img {
-    position: relative;
-} */
 .text-on-photo {
     position: absolute;
     top: 10px;
@@ -421,7 +417,88 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+/* section 5 */
+.bg-img {
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/surfing.jpg');
+    position: relative;
+    margin-bottom: 67px;
+}
+.bg-img::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#08AEEA, #2AF598);
+    opacity: 60%;
+    /* position: relative; */
+}
+.form-texts-wrapper {
+    position: absolute;
+    max-width: 600px;
+    width: 100%;
+    top: 74.5px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 7;
+    text-align: center;
+}
+.form-title1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 37px;
+    margin-bottom: 21px;
+}
+.form-title2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 37px;
+    font-weight: 400;
+    margin-bottom: 61.5px;
+    color: #FFFFFF;
+}
+.form-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+/* email input */
+.email {
+   padding: 14px 0 17px 30px;
+   border-radius: 25px;
+   max-width: 395px;
+   width: 100%;
+   border: 2px solid #fff;
+   background-color: transparent;
+}
+.form-div {
+    width: 100%;
+}
+.email::placeholder {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+.email:focus {
+    outline: none;
+}
+.submit-btn {
+    width: 155px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    text-transform: uppercase;
+    color: #08AEEA;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-left: 22px;
+}
+.error-text {
+    color: red;
+    font-style: italic;
+    display: block;
+}
 /* hover effects */
 .a-list:hover {
     color: #4B54FA;
