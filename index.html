@@ -23,8 +23,8 @@
             <nav class="navbar" id="navbarlinks">
                 <ul class="ul-list">
                     <li class="li-list"> <a class="a-list active-list" href="index.html">Home</a></li>
-                    <li class="li-list"> <a class="a-list" href="#">About us</a></li>
-                    <li class="li-list"> <a class="a-list" href="#">Our services</a></li>
+                    <li class="li-list"> <a class="a-list" href="#slider-section">About us</a></li>
+                    <li class="li-list"> <a class="a-list" href="#section2">Our services</a></li>
                     <li class="li-list"> <a class="a-list" href="api.html">api</a></li>
                     <li class="li-list last-list"> <a class="a-list" href="#">Tour package</a></li>
                 </ul>
@@ -36,8 +36,8 @@
             </div>
         </div>
     </header>
-    
-    <section>
+
+    <section id="slider-section">
         <div class="slider-wrapper">
             <button class="arrow arrow-left" id="arrow-left">
                 <i class="fa-solid fa-arrow-left"></i>
@@ -47,22 +47,37 @@
                 <i class="fa-solid fa-arrow-right"></i>
             </button>
 
-            <div class="slider-content" id="slider-content">
-                <!-- <img class="slider-img" src="images/Clip.png" alt="">
-                <div class="slider-texts">
-                    <p>hjegfjwf</p>
-                    <h2>sjfs</h2>
-                    <p>skfhks</p>
-                </div> -->
-            </div>
-            
+            <div class="slider-content" id="slider-content"></div>
         </div>
     </section>
+
+    <section id="section2">
+        <div class="section2-wrapper">
+            <div class="text-box">
+                <h2 class="text-box-title2">discover</h2>
+                <h3 class="text-box-title3">Our Hot Services</h3>
+                <div class="blue-line"></div>
+                <p class="text-box-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+            </div>
+
+            <div class="card-box" id="card-box"></div>
+        </div>
+        
+        <div class="overlay" id="overlay">
+            <div class="overlay-content" id="overlay-content"></div>
+            <div class="close" id="close">
+                <i class="fa-solid fa-x"></i>
+            </div>
+        </div>
+        
+    </section>
+
     
 
 
 
     <script src="js/script.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/cards.js"></script>
 </body>
 </html>
