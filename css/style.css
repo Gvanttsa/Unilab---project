@@ -307,7 +307,7 @@ body {
     margin-top: 111px;
     height: 205px;
     border-bottom: 1px solid #EBEBEB;
-    margin-bottom: 100px;
+    margin-bottom: 66px;
 }
 .each-price-div {
     text-align: center;
@@ -335,6 +335,93 @@ body {
 .icon4 {
     margin-bottom: 26px;
 }
+/* section 4 */
+.section4-wrapper {
+    max-width: 863px;
+    width: 100%;
+    margin: 0 auto;
+}
+.section4-heading {
+    width: 267px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section4-title1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15.98px;
+    font-weight: 600;
+    color: #8D8D8D;
+    line-height: 36.95px;
+    margin-bottom: 6,4px;
+    text-transform: uppercase;
+}
+.section4-title2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 25.96px;
+    color: #1A1A1B;
+    line-height: 36.95px;
+}
+.third-line {
+    margin-top: 7.8px;
+    width: 46px;
+    height: 1px;
+    background-color: #4B54FA;
+    margin: 0 auto;
+}
+.box-wrapper {
+    width: 100%;
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 71px;
+}
+.banner {
+    width: 267px;
+    box-shadow: 2px 2px 5px #707070;   
+    position: relative;
+}
+.banner-texts {
+    width: 189px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 23px;
+}
+.banner-price {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1A1A1B;
+    line-height: 37px;
+}
+.banner-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 37px;
+    color: #4B54FA;
+}
+/* .banner-img {
+    position: relative;
+} */
+.text-on-photo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #1A1A1B;
+    background-color: yellow;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 37px;
+    width: 98px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* hover effects */
 .a-list:hover {
     color: #4B54FA;
