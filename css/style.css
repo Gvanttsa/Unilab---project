@@ -202,6 +202,7 @@ body {
     height: 2px;
     background-color: #4B54FA;
     margin: 7.8px 0 28.6px 0;
+    
 }
 .text-box-text {
     font-family: 'Raleway', sans-serif;
@@ -244,6 +245,95 @@ body {
 .fa-x {
     color: rgb(23, 22, 22);
     font-size: 30px;
+}
+/* section3 */
+.section3-imgW {
+    width: 100%;
+    background-image: url('../images/beach.jpg');
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.section3-imgW::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 60%;
+}
+.video-wrapper {
+    max-width: 663px;
+    width: 100%;
+    height: 314px;
+    position: absolute;   
+}
+.video-content {
+    position: absolute;
+    max-width: 663px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 5;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    text-align: center;
+}
+.scnd-line {
+    margin: 7.8px auto 52.4px auto;
+    background-color: #fff;
+}
+.video-title {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 37px;
+    margin-bottom: 6.2px;
+    text-transform: uppercase;
+}
+.video-text {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.price-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 111px;
+    height: 205px;
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 100px;
+}
+.each-price-div {
+    text-align: center;
+}
+.price-number {
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 4.9px;
+    color: #1A1A1B;
+}
+.heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #1A1A1B;
+    text-transform: uppercase;
+}
+.icon {
+    margin-bottom: 23px;
+}
+.icon3 {
+    margin-bottom: 22px;
+}
+.icon4 {
+    margin-bottom: 26px;
 }
 /* hover effects */
 .a-list:hover {
