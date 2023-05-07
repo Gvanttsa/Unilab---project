@@ -1,7 +1,7 @@
 let data = [
     {
         id: 1,
-        imgUrl: '../images/Clip.png',
+        imgUrl: '../images/slide.png',
         price: 'From $199/Person',
         title: 'Discover Greece',
         text: 'travel with uniquie experiance'

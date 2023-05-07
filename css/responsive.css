@@ -84,6 +84,14 @@
     .blue-line {
         margin: 15px auto 15px auto;
     }
+    .people-cards-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .person-card {
+        margin-bottom: 25px;
+    }
 }
 @media(max-width:850px) {
     .box-wrapper {
@@ -146,6 +154,9 @@
     }
     .price {
         font-size: 15px;
+    }
+    .background-content {
+        top: 200px;
     }
 }
 

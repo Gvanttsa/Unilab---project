@@ -335,17 +335,17 @@ body {
     margin-bottom: 26px;
 }
 /* section 4 */
-.section4-wrapper {
+.section-wrapper {
     max-width: 863px;
     width: 100%;
     margin: 0 auto;
 }
-.section4-heading {
+.section-heading {
     width: 267px;
     margin: 0 auto;
     text-align: center;
 }
-.section4-title1 {
+.section-title1 {
     font-family: 'Raleway', sans-serif;
     font-size: 15.98px;
     font-weight: 600;
@@ -354,7 +354,7 @@ body {
     margin-bottom: 6,4px;
     text-transform: uppercase;
 }
-.section4-title2 {
+.section-title2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 25.96px;
@@ -362,7 +362,7 @@ body {
     line-height: 36.95px;
 }
 .third-line {
-    margin-top: 7.8px;
+    margin-top: 10px;
     width: 46px;
     height: 1px;
     background-color: #4B54FA;
@@ -432,7 +432,6 @@ body {
     height: 100%;
     background: linear-gradient(#08AEEA, #2AF598);
     opacity: 60%;
-    /* position: relative; */
 }
 .form-texts-wrapper {
     position: absolute;
@@ -498,6 +497,89 @@ body {
     color: red;
     font-style: italic;
     display: block;
+}
+/* section 6 */
+.people-cards-wrapper {
+    max-width: 1166px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+.person-card {
+    max-width: 368px;
+    width: 100%;
+    background-color: #F4F4F4;
+}
+.person1-img {
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 54px;
+    overflow: hidden;
+}
+.person-info {
+    width: 296.87px;
+    margin: 0 auto;
+}
+.person-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 17.5px;
+    margin-bottom: 37.6px;
+    color: #4B54FA;
+}
+.person-description {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 22px;
+}
+.fa-quote-right{
+    font-size: 50px;
+    color: #2C2C2C;
+    margin: 50px 0;
+}
+.backgroung-img {
+    width: 100%;
+    background-image: url('../images/beach.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 67px;
+}
+.background-content {
+    position: absolute;
+    top: 312px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+   
+}
+.button-titile {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 37px;
+    margin-bottom: 49.8px;
+    color: #FEFEFF;
+}
+.button-book {
+    width: 170px;
+    height: 50px;
+    background: linear-gradient(#08AEEA, #2AF598);
+    border-radius: 25px;
+    border: none;
+    color: #FEFEFF;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 600;
 }
 /* hover effects */
 .a-list:hover {
