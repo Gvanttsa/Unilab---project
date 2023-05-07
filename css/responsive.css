@@ -92,6 +92,14 @@
     .person-card {
         margin-bottom: 25px;
     }
+    .country-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .each-country {
+        margin-bottom: 25px;
+    }
 }
 @media(max-width:850px) {
     .box-wrapper {
